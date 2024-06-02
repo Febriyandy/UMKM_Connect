@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        body: ['Inter']
+        body: ['Plus Jakarta Sans']
       },
       colors: {
         primary: '#FF9531', 

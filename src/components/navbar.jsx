@@ -19,10 +19,10 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className='w-full h-16 bg-white fixed z-[1000] flex'>
+      <nav className='w-full h-16  bg-white fixed z-[1000] flex'>
         <div className='flex items-center justify-between w-full'>
           <div>
-            <img className='w-40 mx-16' src={Logo} alt="UMKMConnect Logo" />
+            <h1 className='font-body font-bold text-xl text-primary px-14'>UMKMConnect</h1>
           </div>
           <div className='mr-10'>
             <div className='flex flex-grow justify-end items-center gap-10 pr-10'>
@@ -40,20 +40,20 @@ const Navbar = () => {
                   onClick={toggleDropdown}
                   className='font-body flex items-center text-secondary hover:text-primary'
                 >
-                  Produk <BiChevronDown className='ml-10' />
+                  Produk <BiChevronDown className='text-xl ml-5' />
                 </button>
                 {dropdownBuka && (
-                  <div className='absolute mt-2 w-32 bg-white shadow-lg rounded-md'>
-                    <Link to="/produk/makanan" className='block px-4 py-2 text-secondary hover:bg-primary hover:text-white'>
+                  <div className='absolute font-body mt-2 w-32 bg-white shadow-lg rounded-md'>
+                    <Link to="/Makanan" className='block px-4 py-2 text-secondary hover:bg-primary hover:text-white'>
                       Makanan
                     </Link>
-                    <Link to="/produk/minuman" className='block px-4 py-2 text-secondary hover:bg-primary hover:text-white'>
+                    <Link to="/Minuman" className='block px-4 py-2 text-secondary hover:bg-primary hover:text-white'>
                       Minuman
                     </Link>
-                    <Link to="/produk/busana" className='block px-4 py-2 text-secondary hover:bg-primary hover:text-white'>
+                    <Link to="/Busana" className='block px-4 py-2 text-secondary hover:bg-primary hover:text-white'>
                       Busana
                     </Link>
-                    <Link to="/produk/kerajinan" className='block px-4 py-2 text-secondary hover:bg-primary hover:text-white'>
+                    <Link to="/Kerajinan" className='block px-4 py-2 text-secondary hover:bg-primary hover:text-white'>
                       Kerajinan
                     </Link>
                   </div>
