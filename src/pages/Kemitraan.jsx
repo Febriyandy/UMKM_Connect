@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import { Link } from 'react-router-dom'
@@ -6,6 +6,9 @@ import Mitra from '../assets/images/mitra.png'
 
 
 const Kemitraan = () => {
+  useEffect(() => {
+    document.title = 'Kemitraan';
+  }, []);
   return (
     <>
     <Navbar/>

@@ -11,6 +11,9 @@ import Notfound from '../pages/Notfound';
 import TentangKami from '../pages/TentangKami';
 import Kemitraan from '../pages/Kemitraan';
 import Artikel from '../pages/Artikel';
+import ArtikelDetail from '../pages/ArtikelDetail';
+import DetailMakanan from '../pages/DetailMakanan';
+import DetailUMKM from '../pages/DetailUMKM';
 
 const Routing = () => {
     return(
@@ -25,6 +28,9 @@ const Routing = () => {
             <Route path='/TentangKami' element={<TentangKami/>} />
             <Route path='/Kemitraan' element={<Kemitraan/>} />
             <Route path='/Artikel' element={<Artikel/>} />
+            <Route path='/Artikel/Detail' element={<ArtikelDetail/>} />
+            <Route path='/Makanan/Detail' element={<DetailMakanan/>} />
+            <Route path='/UMKM/Detail' element={<DetailUMKM/>} />
             <Route path='*' element={<Notfound/>} />
         </Routes>
     );

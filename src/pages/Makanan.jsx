@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Navbar from '../components/navbar'
 import Foto from "../assets/images/makanan.png"
 import { IoIosSearch } from "react-icons/io";
@@ -10,10 +10,12 @@ import bakso from "../assets/images/bakso.png"
 import uduk from "../assets/images/uduk.png"
 import nasgor from "../assets/images/liwet.png"
 import siomay from "../assets/images/siomay.png"
-import { Link } from 'react-router-dom';
 import Footer from '../components/footer';
 
 const Makanan = () => {
+    useEffect(() => {
+        document.title = 'Makanan';
+      }, []);
   return (
     <>
     <Navbar/>
@@ -46,7 +48,7 @@ const Makanan = () => {
                     <h1 className='font-bold text-primary'>Sate Madura Pak Darmo</h1>
                     <h2 className='h-28 text-xs text-justify'>Sate daging sapi dengan bumbu Madura yang kaya rempah dan kuah kacang yang gurih. Rasakan sensasi kelezatan tradisional dari Madura di setiap tusukan sate</h2>
                     <div className='relative flex justify-center '>
-                        <Link className='absolute font-body text-sm text-white px-12 rounded-lg py-1  bg-primary'>Selengkapnya</Link>
+                        <a href="/Makanan/Detail" className='absolute font-body text-sm text-white px-12 rounded-lg py-1  bg-primary'>Selengkapnya</a>
                     </div>
                 </div>
             </div>
@@ -56,7 +58,7 @@ const Makanan = () => {
                     <h1 className='font-bold text-primary'>Gudeg Pak Darmo</h1>
                     <h2 className='h-28 text-xs text-justify'>Gudeg dengan cita rasa yang gurih dan manis membuat makanan legendaris ini sangat digemari oleh semua kalangan. Gudeg biasanya disajikan di lengkapi dengan nasi putih, telur dan daging ayam.</h2>
                     <div className='relative flex justify-center '>
-                        <Link className='absolute font-body text-sm text-white px-12 rounded-lg py-1  bg-primary'>Selengkapnya</Link>
+                        <a href='' className='absolute font-body text-sm text-white px-12 rounded-lg py-1  bg-primary'>Selengkapnya</a>
                     </div>
                 </div>
             </div>
@@ -66,7 +68,7 @@ const Makanan = () => {
                     <h1 className='font-bold text-primary'>Rendang Uda</h1>
                     <h2 className='h-28 text-xs text-justify'>Rendang makanan menjadi salah satu sajian utama di setiap Rumah Makan Padang. Rendang terbuat dari olahan daging yang dimasak dengan bumbu rempah dan cita rasa yang lezat.</h2>
                     <div className='relative flex justify-center '>
-                        <Link className='absolute font-body text-sm text-white px-12 rounded-lg py-1  bg-primary'>Selengkapnya</Link>
+                        <a href='' className='absolute font-body text-sm text-white px-12 rounded-lg py-1  bg-primary'>Selengkapnya</a>
                     </div>
                 </div>
             </div>
@@ -76,7 +78,7 @@ const Makanan = () => {
                     <h1 className='font-bold text-primary'>Pempek Bu Tini</h1>
                     <h2 className='h-28 text-xs text-justify'>Pempek berbahan daging ikan dan tepung dengan rasa asam, manis, pedas, dan gurih. Pempek berbagai jenisnya, yaitu pempek lenjer, bulat, kulit ikan, dan kapal selam  yang berisi telur ayam.</h2>
                     <div className='relative flex justify-center '>
-                        <Link className='absolute font-body text-sm text-white px-12 rounded-lg py-1  bg-primary'>Selengkapnya</Link>
+                        <a href='' className='absolute font-body text-sm text-white px-12 rounded-lg py-1  bg-primary'>Selengkapnya</a>
                     </div>
                 </div>
             </div>
@@ -86,7 +88,7 @@ const Makanan = () => {
                     <h1 className='font-bold text-primary'>Bakso Solo</h1>
                     <h2 className='h-28 text-xs text-justify'>Bakso berupa bola daging yang terbuat dari campuran daging sapi giling dan tepung tapioka disajikan dengan kuah kaldu dan diberi topping berupa mie, tahu, bawang goreng, dan seledri. </h2>
                     <div className='relative flex justify-center '>
-                        <Link className='absolute font-body text-sm text-white px-12 rounded-lg py-1  bg-primary'>Selengkapnya</Link>
+                        <a href='' className='absolute font-body text-sm text-white px-12 rounded-lg py-1  bg-primary'>Selengkapnya</a>
                     </div>
                 </div>
             </div>
@@ -96,7 +98,7 @@ const Makanan = () => {
                     <h1 className='font-bold text-primary'>Nasi Goreng Padang</h1>
                     <h2 className='h-28 text-xs text-justify'>Nasi Goreng Padang dari bumbu kari bercita rasa gurih, tidak menggunakan kecap manis. Rasanya asin, tetapi juga sedikit pedas dengan tambahan  kerupuk merah, seledri cincang.</h2>
                     <div className='relative flex justify-center '>
-                        <Link className='absolute font-body text-sm text-white px-12 rounded-lg py-1  bg-primary'>Selengkapnya</Link>
+                        <a href='' className='absolute font-body text-sm text-white px-12 rounded-lg py-1  bg-primary'>Selengkapnya</a>
                     </div>
                 </div>
             </div>
@@ -106,7 +108,7 @@ const Makanan = () => {
                     <h1 className='font-bold text-primary'>Siomay Bu Tini</h1>
                     <h2 className='h-28 text-xs text-justify'>Siomay olahan tepung dan ikan tenggiri dengan tambahan kentang, kol, telur dan tahu yang dikukus. Siomay dengan bumbu kacang kental, perasan jeruk nipis dan tambahan kecap manis.</h2>
                     <div className='relative flex justify-center '>
-                        <Link className='absolute font-body text-sm text-white px-12 rounded-lg py-1  bg-primary'>Selengkapnya</Link>
+                        <a href='' className='absolute font-body text-sm text-white px-12 rounded-lg py-1  bg-primary'>Selengkapnya</a>
                     </div>
                 </div>
             </div>
@@ -116,7 +118,7 @@ const Makanan = () => {
                     <h1 className='font-bold text-primary'>Nasi Uduk Barokah</h1>
                     <h2 className='h-28 text-xs text-justify'>Nasi yang dimasak dengan santan,  disajikan dengan lauk-pauk seperti ayam goreng, tempe, tahu, dan sambal kacang yang khas. Memiliki rasa gurih yang nikmat dan aroma harum santan.</h2>
                     <div className='relative flex justify-center '>
-                        <Link className='bottom-10 font-body text-sm text-white px-12 rounded-lg py-1  bg-primary'>Selengkapnya</Link>
+                        <a href='' className='bottom-10 font-body text-sm text-white px-12 rounded-lg py-1  bg-primary'>Selengkapnya</a>
                     </div>
                 </div>
             </div>

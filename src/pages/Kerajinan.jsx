@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Navbar from '../components/navbar'
 import Foto from "../assets/images/bgjinan.png"
 import { IoIosSearch } from "react-icons/io";
@@ -14,6 +14,9 @@ import { Link } from 'react-router-dom';
 import Footer from '../components/footer';
 
 const Kerajinan = () => {
+    useEffect(() => {
+        document.title = 'Kerajinan';
+      }, []);
   return (
     <>
     <Navbar/>

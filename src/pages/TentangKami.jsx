@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Navbar from '../components/navbar'
 import about from '../assets/images/about.png'
 import Foto from '../assets/images/foto1.png'
@@ -6,6 +6,9 @@ import { Link } from 'react-router-dom'
 import Footer from '../components/footer'
 
 const TentangKami = () => {
+    useEffect(() => {
+        document.title = 'Tentang Kami';
+      }, []);
   return (
     <>
     <Navbar/>
