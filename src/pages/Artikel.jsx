@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../components/navbar'
-import Foto from"../components/bgartikel.png"
+import Foto from"../assets/images/bgartikel.png"
 import { IoIosSearch } from "react-icons/io";
 import artikel1 from "../assets/images/artikel1.png"
 import artikel2 from "../assets/images/artikel2.png"
