@@ -52,7 +52,7 @@ const Kerajinan = () => {
             <div className='w-60 h-80  rounded-xl border shadow-lg border-[#DCDCDC]'>
                 <img src={tastangan} className='w-full h-2/5 object-cover rounded-xl' alt="" />
                 <div className='px-5 pt-2 font-body'>
-                    <h1 className='font-bold text-primary'>Tas Tangan Judy&Frances</h1>
+                    <h1 className='font-bold text-primary'>Tas Tangan Judy and Frances</h1>
                     <h2 className='h-28 text-xs text-justify'>Tas unik fungsional dan tahan lama dengan metode anyaman dengan tas bahan kulit, polyester, batik, maupun songket. Untuk bagian dalam tas menggunakan bahan suede dan pegangan dari kulit asli.</h2>
                     <div className='relative flex justify-center '>
                         <Link className='absolute font-body text-sm text-white px-12 rounded-lg py-1  bg-primary'>Selengkapnya</Link>
