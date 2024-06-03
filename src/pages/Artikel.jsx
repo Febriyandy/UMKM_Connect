@@ -31,7 +31,7 @@ const Artikel = () => {
           </div>
         </div>
       </section>
-      <h1 className='font-bold text-xl px-20 font-body'>Artikel Terbaru</h1>
+      <h1 className='font-bold text-xl px-14 font-body'>Artikel Terbaru</h1>
       <section className='h-auto my-10 w-full flex flex-col items-center font-body'>
         <div className='flex gap-5'>
           <div className='w-72 h-auto rounded-2xl border border-[#DCDCDC]'>
