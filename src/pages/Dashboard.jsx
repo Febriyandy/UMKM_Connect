@@ -161,7 +161,7 @@ const Dashboard = () => {
         </div>
       </section>
       <section className='h-72 w-full flex bg-primary'>
-       <img src={background} className='w-full object-cover absolute' alt="" />
+       <img src={bgartikel} className='w-full object-cover absolute' alt="" />
        <div className='relative flex items-center'>
           <div>
           <img src={Foto} className='w-80 h-48 ml-32 mr-20 object-cover rounded-xl ' alt="" />
