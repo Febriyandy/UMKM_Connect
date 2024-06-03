@@ -17,7 +17,7 @@ const Artikel = () => {
         <div className=' w-full h-96 bg-[#14142B] relative'>
           <img src={Foto} className='h-96 w-full object-cover' alt="" />
           <div className='flex flex-col items-center h-full w-full absolute top-5 '>
-            <h1 className='font-body font-bold text-white text-2xl text-center mt-28'>
+            <h1 className='font-body font-bold text-white text-2xl text-center mt-32'>
             Cari Artikel Menarik disini untuk Mengembangkan Usaha Anda
             </h1>
             <div className='relative w-1/2 mt-10'>
@@ -31,7 +31,7 @@ const Artikel = () => {
           </div>
         </div>
       </section>
-      <h1 className='font-bold text-xl px-16 mt-6 font-body'>Artikel Terbaru</h1>
+      <h1 className='font-bold text-xl px-14 mt-8 font-body'>Artikel Terbaru</h1>
       <section className='h-auto my-10 w-full flex flex-col items-center font-body'>
         <div className='flex gap-5'>
           <div className='w-72 h-auto rounded-2xl border border-[#DCDCDC]'>
