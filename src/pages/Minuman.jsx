@@ -72,7 +72,7 @@ const Minuman = () => {
             <div className='w-60 h-80  rounded-xl border shadow-lg border-[#DCDCDC]'>
                 <img src={escendol} className='w-full h-2/5 object-cover rounded-xl' alt="" />
                 <div className='px-5 pt-2 font-body'>
-                    <h1 className='font-bold text-primary'>Es Cemdol Manis</h1>
+                    <h1 className='font-bold text-primary'>Es Cendol Manis</h1>
                     <h2 className='h-28 text-xs text-justify'>Minuman cendol dari tepung beras dan tepung sagu yang direbus dengan air daun pandan dan disajikan dengan sirup gula merah dan santan serta rasanya yang manis, segar, dan gurih.</h2>
                     <div className='relative flex justify-center '>
                         <Link className='absolute font-body text-sm text-white px-12 rounded-lg py-1  bg-primary'>Selengkapnya</Link>
@@ -102,7 +102,7 @@ const Minuman = () => {
             <div className='w-60 h-80  rounded-xl border shadow-lg border-[#DCDCDC]'>
                 <img src={eskamud} className='w-full h-2/5 object-cover rounded-xl' alt="" />
                 <div className='px-5 pt-2 font-body'>
-                    <h1 className='font-bold text-primary'>Es Kelapa Muda Mama Ros</h1>
+                    <h1 className='font-bold text-primary'>Es Kelapa Segar</h1>
                     <h2 className='h-28 text-xs text-justify'>Es Kelapa muda yang disajikan dengan es dan gula bisa menjadi menu takjil nikmat untuk berbuka puasa. Selain rasanya yang segar,air kelapa juga punya banyak manfaat bagi kesehatan tubuh.</h2>
                     <div className='relative flex justify-center '>
                         <Link className='absolute font-body text-sm text-white px-12 rounded-lg py-1  bg-primary'>Selengkapnya</Link>
