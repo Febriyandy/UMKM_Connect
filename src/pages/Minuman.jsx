@@ -112,7 +112,7 @@ const Minuman = () => {
             <div className='w-60 h-80  rounded-xl border shadow-lg border-[#DCDCDC]'>
                 <img src={escinjau} className='w-full h-2/5 object-cover rounded-xl' alt="" />
                 <div className='px-5 pt-2 font-body'>
-                    <h1 className='font-bold text-primary'>Es Cincau Hijau Mama Ros</h1>
+                    <h1 className='font-bold text-primary'>Es Cincau Hijau Manis</h1>
                     <h2 className='h-28 text-xs text-justify'>Es cincau hijau dengan daunnya yang diremas dan dicampur dengan air matang. Es cincau hijau disajikan dengan gula merah dan santan serta parutan es batu yang menambah kesegaran.</h2>
                     <div className='relative flex justify-center '>
                         <Link className='bottom-10 font-body text-sm text-white px-12 rounded-lg py-1  bg-primary'>Selengkapnya</Link>
