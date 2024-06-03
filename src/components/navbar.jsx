@@ -8,7 +8,7 @@ const Navbar = () => {
 
   const navigationItems = [
     { path: '/', label: 'Beranda' },
-    { path: '/about', label: 'Tentang Kami' },
+    { path: '/TentangKami', label: 'Tentang Kami' },
     { path: '/Kemitraan', label: 'Kemitraan' },
     { path: '/Artikel', label: 'Artikel' },
   ];

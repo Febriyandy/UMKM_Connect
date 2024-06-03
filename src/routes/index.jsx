@@ -5,6 +5,9 @@ import Dashboard from '../pages/Dashboard';
 import Footer from '../components/footer';
 import Makanan from '../pages/Makanan';
 import Notfound from '../pages/Notfound';
+import TentangKami from '../pages/TentangKami';
+import Kemitraan from '../pages/Kemitraan';
+import Artikel from '../pages/Artikel';
 
 const Routing = () => {
     return(
@@ -13,6 +16,9 @@ const Routing = () => {
             <Route path="/" element={<Dashboard/>} />
             <Route path="/Footer" element={<Footer/>} />
             <Route path='/Makanan' element={<Makanan/>} />
+            <Route path='/TentangKami' element={<TentangKami/>} />
+            <Route path='/Kemitraan' element={<Kemitraan/>} />
+            <Route path='/Artikel' element={<Artikel/>} />
             <Route path='*' element={<Notfound/>} />
         </Routes>
     );
