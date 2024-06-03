@@ -2,12 +2,12 @@ import React from 'react'
 import Navbar from '../components/navbar'
 import Foto from "../assets/images/bgjinan.png"
 import { IoIosSearch } from "react-icons/io";
-import miniatur from "../assets/images/miniatu.png"
+import miniatur from "../assets/images/miniatur.png"
 import tastangan from "../assets/images/tastangan.png"
 import kreasimanik from "../assets/images/kreasimanik.png"
 import bouqet from "../assets/images/bouqet.png"
 import karbu from "../assets/images/karbu.png"
-import homedec from "../assets/images/homdedec.png"
+import homedec from "../assets/images/homedec.png"
 import kayu from "../assets/images/kayu.png"
 import kerang from "../assets/images/kerang.png"
 import { Link } from 'react-router-dom';
@@ -33,7 +33,8 @@ const Kerajinan = () => {
               <IoIosSearch className='absolute top-1/2 right-4 transform -translate-y-1/2 text-2xl text-gray-500'  />
             </div>
             <h2 className='font-body text-white text-center w-3/4 mt-10'>
-            Temukan keindahan dan keunikannya dalam setiap kerajinan tangan buatan para pengrajin lokal kami. Dari perhiasan hingga dekorasi rumah, setiap karya dipenuhi dengan kelembutan, ketekunan, dan keterampilan tangan yang memukau. Mari jelajahi dunia kerajinan tangan yang kaya akan inspirasi!          </div>
+            Temukan keindahan dan keunikannya dalam setiap kerajinan tangan buatan para pengrajin lokal kami. Dari perhiasan hingga dekorasi rumah, setiap karya dipenuhi dengan kelembutan, ketekunan, dan keterampilan tangan yang memukau. Mari jelajahi dunia kerajinan tangan yang kaya akan inspirasi!  </h2>  
+                </div>
         </div>
       </section>
       <section className='h-auto w-full py-20 flex flex-col items-center justify-center'>
