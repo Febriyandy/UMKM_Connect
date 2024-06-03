@@ -43,7 +43,7 @@ const Minuman = () => {
                 <img src={esteh} className='w-full h-2/5 object-cover rounded-xl' alt="" />
                 <div className='px-5 pt-2 font-body'>
                     <h1 className='font-bold text-primary'>Es Teh Tarik Mama Ros</h1>
-                    <h2 className='h-28 text-xs text-justify'>Nikmati kesegaran teh tarik khas Mama Ros yang memikat dengan kelembutan dan rasa yang pas. Sajikan dengan es batu yang meluncur dalam gelas, cocok untuk melepas dahaga di hari yang panas</h2>
+                    <h2 className='h-28 text-xs text-justify'>Nikmati kesegaran teh tarik khas Mama Ros yang memikat dengan kelembutan dan rasa yang pas. Sajikan dengan es batu yang meluncur dalam gelas, cocok untuk melepas dahaga di hari yang panas.</h2>
                     <div className='relative flex justify-center '>
                         <Link className='absolute font-body text-sm text-white px-12 rounded-lg py-1  bg-primary'>Selengkapnya</Link>
                     </div>
@@ -73,7 +73,7 @@ const Minuman = () => {
                 <img src={escendol} className='w-full h-2/5 object-cover rounded-xl' alt="" />
                 <div className='px-5 pt-2 font-body'>
                     <h1 className='font-bold text-primary'>Es Cemdol Manis</h1>
-                    <h2 className='h-28 text-xs text-justify'>Minuman cendol dari tepung beras dan tepung sagu yang direbus dengan air daun pandan dan disajikan dengan sirup gula merah dan santan serta rasanya yang manis, segar, dan gurih </h2>
+                    <h2 className='h-28 text-xs text-justify'>Minuman cendol dari tepung beras dan tepung sagu yang direbus dengan air daun pandan dan disajikan dengan sirup gula merah dan santan serta rasanya yang manis, segar, dan gurih.</h2>
                     <div className='relative flex justify-center '>
                         <Link className='absolute font-body text-sm text-white px-12 rounded-lg py-1  bg-primary'>Selengkapnya</Link>
                     </div>
@@ -93,7 +93,7 @@ const Minuman = () => {
                 <img src={escok} className='w-full h-2/5 object-cover rounded-xl' alt="" />
                 <div className='px-5 pt-2 font-body'>
                     <h1 className='font-bold text-primary'>Es Coklat Abunawas</h1>
-                    <h2 className='h-28 text-xs text-justify'>Es Coklat Abunawas dengan rasa yang unik dan enak dengan  menggunakan dark coklat impor asli berkualitas tinggi serta campuran hanya susu kental manis yang difrothing dan  ditambahkan es batu.</h2>
+                    <h2 className='h-28 text-xs text-justify'>Es Coklat Abunawas dengan rasa yang unik dan enak dengan menggunakan dark coklat impor asli berkualitas tinggi serta campuran hanya susu kental manis yang difrothing dan  ditambahkan es batu.</h2>
                     <div className='relative flex justify-center '>
                         <Link className='absolute font-body text-sm text-white px-12 rounded-lg py-1  bg-primary'>Selengkapnya</Link>
                     </div>
@@ -103,7 +103,7 @@ const Minuman = () => {
                 <img src={eskamud} className='w-full h-2/5 object-cover rounded-xl' alt="" />
                 <div className='px-5 pt-2 font-body'>
                     <h1 className='font-bold text-primary'>Es Kelapa Muda Pak Mamat</h1>
-                    <h2 className='h-28 text-xs text-justify'>Es Kelapa muda yang disajikan dengan es dan gula bisa menjadi menu takjil nikmat untuk berbuka puasa. Selain rasanya yang segar, air kelapa juga punya banyak manfaat bagi kesehatan tubuh.</h2>
+                    <h2 className='h-28 text-xs text-justify'>Es Kelapa muda yang disajikan dengan es dan gula bisa menjadi menu takjil nikmat untuk berbuka puasa. Selain rasanya yang segar,air kelapa juga punya banyak manfaat bagi kesehatan tubuh.</h2>
                     <div className='relative flex justify-center '>
                         <Link className='absolute font-body text-sm text-white px-12 rounded-lg py-1  bg-primary'>Selengkapnya</Link>
                     </div>
@@ -113,7 +113,7 @@ const Minuman = () => {
                 <img src={escinjau} className='w-full h-2/5 object-cover rounded-xl' alt="" />
                 <div className='px-5 pt-2 font-body'>
                     <h1 className='font-bold text-primary'>Es Cincau Hijau Manis Mama Ros</h1>
-                    <h2 className='h-28 text-xs text-justify'>Es cincau hijau dengan daunnya yang diremas dan dicampur dengan air matang. Es cincau hijau disajikan dengan gula merah dan santan serta parutan es batu yang menambah kesegaran</h2>
+                    <h2 className='h-28 text-xs text-justify'>Es cincau hijau dengan daunnya yang diremas dan dicampur dengan air matang. Es cincau hijau disajikan dengan gula merah dan santan serta parutan es batu yang menambah kesegaran.</h2>
                     <div className='relative flex justify-center '>
                         <Link className='bottom-10 font-body text-sm text-white px-12 rounded-lg py-1  bg-primary'>Selengkapnya</Link>
                     </div>
