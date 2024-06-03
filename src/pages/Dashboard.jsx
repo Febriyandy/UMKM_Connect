@@ -10,7 +10,7 @@ import busana from "../assets/images/busana.png"
 import kerajinan from "../assets/images/kerajinan.png"
 import { Link } from 'react-router-dom';
 import darmo from "../assets/images/darmo.png"
-import milkshake from "../assets/images/milkshake.png"
+import milkshake from "../assets/images/milkshake.png" 
 import hamidah from "../assets/images/hamidah.png"
 import abinaya from "../assets/images/abinaya.png"
 import mamalis from "../assets/images/mamalis.png"
