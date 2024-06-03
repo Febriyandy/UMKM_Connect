@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../components/navbar';
 import Foto from "../assets/images/foto1.png";
 import { IoIosSearch } from "react-icons/io";
-import { BsArrowDown } from "react-icons/bs";
+import { HiOutlineChevronDown } from "react-icons/hi";
 import Footer from '../components/footer';
 import makanan from "../assets/images/makanan.png"
 import minuman from "../assets/images/minuman.png"
@@ -44,7 +44,7 @@ const Dashboard = () => {
             </h2>
             <div className='mt-14'>
               <h1 className='font-body text-white'>Scroll Kebawah</h1>
-              <BsArrowDown className='text-2xl text-white mx-auto bg-primary w-8 h-12 rounded-2xl'/>
+              <HiOutlineChevronDown className='text-2xl text-white mx-auto bg-primary w-8 h-12 rounded-2xl'/>
             </div>
           </div>
         </div>
