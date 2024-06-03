@@ -18,7 +18,7 @@ import artikel1 from "../assets/images/artikel1.png"
 import artikel2 from "../assets/images/artikel2.png"
 import artikel3 from "../assets/images/artikel3.png"
 import artikel4 from "../assets/images/artikel4.png"
-import background from "../assets/images/background.png"
+import bgartikel from "../assets/images/bgartikel.png"
 
 const Dashboard = () => {
   return (
