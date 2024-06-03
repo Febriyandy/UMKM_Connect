@@ -121,7 +121,7 @@ const Minuman = () => {
             </div>
             
         </div>
-        <button className='text-center font-body font-bold text-primary py-1 px-7 rounded-xl mt-10 border-2 border-primary'>Lebih Banyak</button>
+        <button className='text-center font-body font-semibold text-primary py-1 px-7 rounded-xl mt-10 border-2 border-primary'>Lebih Banyak</button>
       </section>
       <Footer/>
     </>
