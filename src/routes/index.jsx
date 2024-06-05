@@ -14,6 +14,8 @@ import Artikel from '../pages/Artikel';
 import ArtikelDetail from '../pages/ArtikelDetail';
 import DetailMakanan from '../pages/DetailMakanan';
 import DetailUMKM from '../pages/DetailUMKM';
+import Login from '../pages/Login';
+import Register from '../pages/Register';
 
 const Routing = () => {
     return(
@@ -21,6 +23,8 @@ const Routing = () => {
             <Route path="/Navbar" element={<Navbar />} />
             <Route path="/" element={<Dashboard/>} />
             <Route path="/Footer" element={<Footer/>} />
+            <Route path="/Login" element={<Login/>} />
+            <Route path="/Register" element={<Register/>} />
             <Route path='/Makanan' element={<Makanan/>} />
             <Route path='/Minuman' element={<Minuman/>} />
             <Route path='/Busana' element={<Busana/>} />

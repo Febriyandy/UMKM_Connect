@@ -37,7 +37,7 @@ const Dashboard = () => {
             alt=""
           />
           <div className="flex flex-col items-center h-full w-full absolute top-10 ">
-            <h1 className="font-body font-bold text-white text-2xl text-center mt-24">
+            <h1 className="  font-body font-bold text-white text-2xl text-center mt-24">
               Selamat Datang di UMKMConnect <br /> Konsumennya Saja Sudah
               Digital, UMKM-nya Juga Dong
             </h1>
@@ -55,7 +55,7 @@ const Dashboard = () => {
               dari UMKM seluruh Indonesia dengan mudah, dari kuliner lezat
               hingga kerajinan tangan unik, semuanya ada disini.
             </h2>
-            <div className="mt-14">
+            <div className="bottom-10 absolute">
               <h1 className="font-body text-white">Scroll Kebawah</h1>
               <HiOutlineChevronDown className="text-2xl text-white mx-auto bg-primary w-8 h-12 rounded-2xl" />
             </div>
@@ -64,7 +64,7 @@ const Dashboard = () => {
       </section>
       <section className="h-96 w-full flex flex-col items-center font-body">
         <h1 className="font-bold text-xl mt-10">Kategori Produk</h1>
-        <div className="flex mt-8 gap-20">
+        <div data-aos="fade-up" className="flex mt-8 gap-20">
           <div className="w-48 h-60 shadow-lg border rounded-xl p-4">
             <img
               src={makanan}
@@ -116,7 +116,7 @@ const Dashboard = () => {
         </div>
       </section>
       <section className="h-96 mt-10 w-full flex flex-col items-center font-body">
-        <div className="w-4/5 h-4/5 bg-primary rounded-2xl flex flex-col items-center">
+        <div data-aos="fade-up" className="w-4/5 h-4/5 bg-primary rounded-2xl flex flex-col items-center">
           <h1 className="font-bold text-white text-xl mt-10 ">Partner UMKM</h1>
           <div className="flex gap-10">
             <div className="w-40 h-56 p-4">
@@ -277,7 +277,7 @@ const Dashboard = () => {
             <h1 className="font-body mb-6 font-bold text-2xl text-white">
               Siap berkembang bersama UMKMConnect?
             </h1>
-            <Link className="font-body text-white border border-white rounded-lg py-2 px-4">
+            <Link to="/Login" className="font-body text-white border border-white rounded-lg py-2 px-4">
               Gabung Sekarang
             </Link>
           </div>

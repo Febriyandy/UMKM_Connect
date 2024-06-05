@@ -14,6 +14,9 @@ export default {
         secondary: '#14142B', 
         accent: '#FFFFFF',
       },
+      borderRadius: {
+        primary : '60px',
+      }
     },
   },
   plugins: [],

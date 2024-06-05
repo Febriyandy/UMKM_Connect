@@ -35,7 +35,7 @@ const Kemitraan = () => {
         <img src={Mitra} className='object-cover w-full h-auto' alt="" />
         <div className='w-3/4 h-40 rounded-xl border border-[#DCDCDC] shadow-lg mx-auto p-5'>
           <h1 className='font-bold font-body text-2xl pb-5 text-primary'>Siap berkembang bersama UMKMConnect?</h1>
-          <Link className='font-body py-2  px-3 bg-primary text-white rounded-lg'>Gabung Sekarang</Link>
+          <Link to="/Login" className='font-body py-2  px-3 bg-primary text-white rounded-lg'>Gabung Sekarang</Link>
         </div>
       </div>
     </section>

@@ -1,9 +1,10 @@
 import React, {useEffect} from 'react'
 import Navbar from '../components/navbar'
-import about from '../assets/images/about.png'
+import about from '../assets/images/about3.png'
 import Foto from '../assets/images/foto1.png'
 import { Link } from 'react-router-dom'
 import Footer from '../components/footer'
+import Background from "../assets/images/bglogin.jpg";
 
 const TentangKami = () => {
     useEffect(() => {
@@ -12,14 +13,17 @@ const TentangKami = () => {
   return (
     <>
     <Navbar/>
-    <section className='w-full h-screen bg-gradient-to-r from-primary to-white flex '>
+    <section className='w-full h-screen relative'>
+        <img src={Background} className='w-full h-full object-cover' alt="" />
+        <div className='w-full h-screen top-0 left-0 absolute to-white flex '>
         <div className='w-1/2 h-full flex flex-col justify-center px-20 font-body'>
             <h1 className='text-2xl text-white font-bold py-5'>Tentang Kami</h1>
-            <h2 className='text-lg font-semibold text-justify'>Selamat datang di UMKM Connect, tempat berkumpulnya UMKM lokal yang berbakat dan berdedikasi. Kami adalah platform yang didedikasikan untuk mendukung dan mempromosikan UMKM di seluruh Indonesia</h2>
+            <h2 className='text-lg text-white font-semibold text-justify'>Selamat datang di UMKM Connect, tempat berkumpulnya UMKM lokal yang berbakat dan berdedikasi. Kami adalah platform yang didedikasikan untuk mendukung dan mempromosikan UMKM di seluruh Indonesia</h2>
         </div>
         <div className='w-1/2 h-full p-20 flex justify-center items-center'>
-            <img src={about} className='w-4/5 h-auto' alt="" />
+            <img src={about} className='w-full h-auto mt-10'  alt="" />
         </div>
+    </div>
     </section>
     <section className='h-auto w-full bg-white py-16 flex '>
         <div className='w-1/2  h-full flex flex-col justify-center px-20 font-body'>
@@ -46,7 +50,7 @@ const TentangKami = () => {
                 <div className='h-1/2 w-full relative'>
                     <img src={Foto} className='w-3/4 opacity-85 mx-auto h-full object-cover rounded-xl' alt="" />
                     <h1 className='absolute top-6 w-56 font-bold text-white left-20'>Siap berkembang bersama UMKMConnect?</h1>
-                    <Link className='absolute top-20 left-20 py-1 px-3 bg-primary text-white rounded-lg'>Gabung Sekarang</Link>
+                    <Link to="/Login" className='absolute top-20 left-20 py-1 px-3 bg-primary text-white rounded-lg'>Gabung Sekarang</Link>
                 </div>
                 <div className='h-1/2 w-full px-5'>
                     <h2 className='mt-5 text-justify text-white'>Jika Anda memiliki pertanyaan lebih lanjut atau ingin berpartisipasi dalam misi kami, jangan ragu untuk menghubungi kami. Kami sangat senang untuk berkolaborasi dan bekerja sama dengan Anda!</h2>
