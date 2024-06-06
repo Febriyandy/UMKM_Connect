@@ -27,7 +27,11 @@
 
 Jika Anda memiliki pertanyaan atau memerlukan bantuan lebih lanjut, silakan hubungi kami di [2101020062@student.umrah.ac.id].
 
-
+## Anggota Kelompok
+- Febriandi (2101020062)
+- Tiara Sonya (2101020007)
+- Ahda Kamalia (2101020053)
+- Marsela Zailanti (2101020070)
 
 
 # React + Vite
