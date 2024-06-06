@@ -8,7 +8,7 @@
 2. Clone repository ini:
     git clone https://github.com/Febriyandy/UMKM_Connect.git
 3. Masuk ke direktori project
-    `cd my-project`
+    `cd UMKM_Connect`
 4. Instal semua depedensi
     `npm install`
 5. Jalankan Aplikasi
