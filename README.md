@@ -15,8 +15,6 @@
     `npm run dev`
 
 
-### 7. **Referensi**
-
 ## Referensi
 
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
