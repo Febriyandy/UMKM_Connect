@@ -21,7 +21,7 @@ const DetailUMKM = () => {
       <Navbar />
       <section className="w-full h-auto pt-20 pb-10 bg-white ">
         <div className="w-full h-full flex">
-          <div className="w-1/2 h-full pl-20 pr-10 flex flex-col justify-center font-body">
+          <div data-aos="fade-up" data-aos-duration="1000" className="w-1/2 h-full pl-20 pr-10 flex flex-col justify-center font-body">
             <h1 className="font-bold text-xl text-primary py-5">
               Warung Pak Darmo
             </h1>
@@ -42,7 +42,7 @@ const DetailUMKM = () => {
             </h2>
           </div>
           <div className="w-1/2 h-full  px-5 flex flex-col justify-center font-body">
-            <div className="w-11/12 mx-auto h-60 my-5 rounded-xl border border-[#DCDCDC] shadow-lg py-3 px-5">
+            <div data-aos="zoom-in" data-aos-duration="1000" className="w-11/12 mx-auto h-60 my-5 rounded-xl border border-[#DCDCDC] shadow-lg py-3 px-5">
               <h1 className="font-bold text-base text-primary">
                 Informasi UMKM
               </h1>
@@ -66,12 +66,12 @@ const DetailUMKM = () => {
                 </div>
               </div>
             </div>
-            <h2 className="text-justify px-10 py-5">Kami bangga menjadi bagian dari komunitas kuliner lokal dan berusaha memberikan pengalaman kuliner yang istimewa kepada setiap pelanggan. Di Warung Sate Madura Pak Darmo, kami tidak hanya menyajikan makanan lezat, tetapi juga menghadirkan suasana hangat dan ramah bagi semua pengunjung.</h2>
+            <h2 data-aos="fade-up" data-aos-duration="1000" className="text-justify px-10 py-5">Kami bangga menjadi bagian dari komunitas kuliner lokal dan berusaha memberikan pengalaman kuliner yang istimewa kepada setiap pelanggan. Di Warung Sate Madura Pak Darmo, kami tidak hanya menyajikan makanan lezat, tetapi juga menghadirkan suasana hangat dan ramah bagi semua pengunjung.</h2>
           </div>
         </div>
         <h1 className="font-body font-bold text-lg text-primary px-20 py-5">Rekomendasi Menu</h1>
         <div className='h-auto w-full flex flex-col items-center justify-center'>
-        <div className='grid grid-cols-4 gap-14 mx-auto'>
+        <div data-aos="fade-up" data-aos-duration="1000" className='grid grid-cols-4 gap-14 mx-auto'>
             <div className='w-60 h-80  rounded-xl border shadow-lg border-[#DCDCDC]'>
                 <img src={sate} className='w-full h-2/5 object-cover rounded-xl' alt="" />
                 <div className='px-5 pt-2 font-body'>

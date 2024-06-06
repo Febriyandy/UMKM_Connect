@@ -19,17 +19,17 @@ const DetailMakanan = () => {
     <Navbar/>
     <section className='w-full h-auto py-20 bg-white flex '>
       <div className='w-1/2 h-full pl-20 pr-10 flex flex-col justify-center font-body'>
-      <h1 className='font-bold text-xl text-primary py-5'>Sate Madura Pak Darmo</h1>
-      <h2 className='text-justify'>Nikmati cita rasa autentik Sate Madura yang menggugah selera. Daging ayam pilihan ditusuk dengan bambu dan dibakar dengan bumbu khas Madura yang kaya rempah. Setiap gigitan adalah perpaduan sempurna antara kelezatan daging yang empuk dan aroma rempah yang memikat.</h2>
-      <h1 className='font-bold text-xl text-primary py-5'>Pilihan Daging</h1>
-        <ul className='list-disc list-outside pl-5 text-justify'>
+      <h1 data-aos="fade-up" data-aos-duration="1000" className='font-bold text-xl text-primary py-5'>Sate Madura Pak Darmo</h1>
+      <h2 data-aos="fade-up" data-aos-duration="1000" className='text-justify'>Nikmati cita rasa autentik Sate Madura yang menggugah selera. Daging ayam pilihan ditusuk dengan bambu dan dibakar dengan bumbu khas Madura yang kaya rempah. Setiap gigitan adalah perpaduan sempurna antara kelezatan daging yang empuk dan aroma rempah yang memikat.</h2>
+      <h1 data-aos="fade-up" data-aos-duration="1000" className='font-bold text-xl text-primary py-5'>Pilihan Daging</h1>
+        <ul data-aos="fade-up" data-aos-duration="1000" className='list-disc list-outside pl-5 text-justify'>
         <li>Daging Ayam</li>
         <li>Daging Kambing</li>
         <li>Daging Sapi</li>
         </ul>
-      <div className='w-3/4 h-48 my-5 rounded-xl border border-[#DCDCDC] shadow-lg py-3 px-5'>
+      <div data-aos="fade-up" data-aos-duration="2000" className='w-3/4 h-48 my-5 rounded-xl border border-[#DCDCDC] shadow-lg py-3 px-5'>
       <h1 className='font-bold text-base text-primary'>Informasi UMKM</h1>
-      <div className='flex '>
+      <div  className='flex '>
         <img src={Darmo} className='w-32 rounded-lg mt-2 ' alt="" />
         <div>
           <h1 className=' pl-5 font-bold py-1'>Warung Pak Darmo</h1>
@@ -41,7 +41,7 @@ const DetailMakanan = () => {
       </div>
       </div>
       <div className='w-1/2 h full pr-20 pl-10 flex flex-col  font-body'>
-        <div className='w-full h-96 rounded-xl border border-[#DCDCDC] shadow-lg'>
+        <div data-aos="zoom-in" data-aos-duration="1000" className='w-full h-96 rounded-xl border border-[#DCDCDC] shadow-lg'>
           <img src={Sate} className='h-3/5 rounded-xl w-full object-cover' alt="" />
           <div>
           <h1 className=' pl-5 font-bold text-primary py-3'>Sate Madura Pak Darmo</h1>

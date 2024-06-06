@@ -13,13 +13,13 @@ const ArtikelDetail = () => {
     <>
     <Navbar/>
     <section  className=' w-full h-auto relative'>
-          <img src={Foto} className='h-96 w-full object-cover' alt="" />
+          <img src={Foto}  className='h-96 w-full object-cover' alt="" />
           <div className='flex flex-col items-center h-full w-full relative -top-44'>
             <div className='w-3/5 font-body h-auto bg-white  rounded-xl shadow-lg p-10'>
-              <img src={Artikel} alt="" />
-              <h1 className='font-bold text-xl py-3 text-primary'>Tips Pengelolaan Keuangan Efektif untuk Usaha Menengah Kebawah</h1>
-              <h2 className='font-bold py-3'>28 Februari 2024</h2>
-              <h3 className='text-justify'>Warung Pengelolaan keuangan yang efektif adalah kunci kesuksesan bagi usaha menengah kebawah. Meskipun skala usahanya mungkin lebih kecil dibandingkan dengan perusahaan besar, prinsip-prinsip pengelolaan keuangan yang baik tetap berlaku. Berikut adalah beberapa tips penting untuk membantu pengusaha menengah kebawah mengelola keuangan mereka dengan lebih efektif:
+              <img src={Artikel} data-aos="zoom-in" data-aos-duration="1000" alt="" />
+              <h1 data-aos="fade-up" data-aos-duration="1000" className='font-bold text-xl py-3 text-primary'>Tips Pengelolaan Keuangan Efektif untuk Usaha Menengah Kebawah</h1>
+              <h2 data-aos="fade-up" data-aos-duration="2000" className='font-bold py-3'>28 Februari 2024</h2>
+              <h3 data-aos="fade-up" data-aos-duration="2000" className='text-justify'>Warung Pengelolaan keuangan yang efektif adalah kunci kesuksesan bagi usaha menengah kebawah. Meskipun skala usahanya mungkin lebih kecil dibandingkan dengan perusahaan besar, prinsip-prinsip pengelolaan keuangan yang baik tetap berlaku. Berikut adalah beberapa tips penting untuk membantu pengusaha menengah kebawah mengelola keuangan mereka dengan lebih efektif:
 <br />1. Membuat Anggaran <br />
 Anggaran yang baik merupakan landasan dari pengelolaan keuangan yang efektif. Tentukan pendapatan dan pengeluaran yang diperkirakan dengan cermat, serta alokasikan dana untuk berbagai kebutuhan usaha, seperti pembelian inventaris, biaya operasional, dan pemasaran. <br />
 <br />2. Memantau Arus Kas <br />

@@ -27,13 +27,13 @@ const Navbar = () => {
           <div className='mr-10'>
             <div className='flex flex-grow justify-end items-center gap-10 pr-10'>
               {navigationItems.map((navItem, index) => (
-                <Link
-                  to={navItem.path}
+                <a
+                  href={navItem.path}
                   key={index}
                   className={`font-body ${location.pathname === navItem.path ? 'text-primary' : 'text-secondary'} hover:text-primary`}
                 >
                   {navItem.label}
-                </Link>
+                </a>
               ))}
               <div className='relative'>
                 <button
@@ -44,18 +44,18 @@ const Navbar = () => {
                 </button>
                 {dropdownBuka && (
                   <div className='absolute font-body mt-2 w-32 bg-white shadow-lg rounded-md'>
-                    <Link to="/Makanan" className='block px-4 py-2 text-secondary hover:bg-primary hover:text-white'>
+                    <a href="/Makanan" className='block px-4 py-2 text-secondary hover:bg-primary hover:text-white'>
                       Makanan
-                    </Link>
-                    <Link to="/Minuman" className='block px-4 py-2 text-secondary hover:bg-primary hover:text-white'>
+                    </a>
+                    <a href="/Minuman" className='block px-4 py-2 text-secondary hover:bg-primary hover:text-white'>
                       Minuman
-                    </Link>
-                    <Link to="/Busana" className='block px-4 py-2 text-secondary hover:bg-primary hover:text-white'>
+                    </a>
+                    <a href="/Busana" className='block px-4 py-2 text-secondary hover:bg-primary hover:text-white'>
                       Busana
-                    </Link>
-                    <Link to="/Kerajinan" className='block px-4 py-2 text-secondary hover:bg-primary hover:text-white'>
+                    </a>
+                    <a href="/Kerajinan" className='block px-4 py-2 text-secondary hover:bg-primary hover:text-white'>
                       Kerajinan
-                    </Link>
+                    </a>
                   </div>
                 )}
               </div>

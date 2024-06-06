@@ -19,10 +19,10 @@ const Artikel = () => {
         <div className=' w-full h-96 bg-[#14142B] relative'>
           <img src={Foto} className='h-96 w-full object-cover' alt="" />
           <div className='flex flex-col items-center h-full w-full absolute top-5 '>
-            <h1 className='font-body font-bold text-white text-2xl text-center mt-32'>
+            <h1 data-aos="fade-up" data-aos-duration="1000" className='font-body font-bold text-white text-2xl text-center mt-32'>
             Cari Artikel Menarik disini untuk Mengembangkan Usaha Anda
             </h1>
-            <div className='relative w-1/2 mt-10'>
+            <div data-aos="zoom-in" data-aos-duration="1000" className='relative w-1/2 mt-10'>
               <input 
                 type="text" 
                 className='w-full h-14 rounded-lg text-lg font-body outline-none p-4 pr-12' 
@@ -35,8 +35,8 @@ const Artikel = () => {
       </section>
       <h1 className='font-bold text-xl px-28 mt-8 font-body'>Artikel Terbaru</h1>
       <section className='h-auto my-10 w-full flex flex-col items-center font-body'>
-      <div className="grid grid-cols-4 gap-10">
-      <div className="w-64 h-96 rounded-2xl border border-[#DCDCDC] flex flex-col">
+      <div  className="grid grid-cols-4 gap-10">
+      <div data-aos="fade-up" data-aos-duration="1000" className="w-64 h-96 rounded-2xl border border-[#DCDCDC] flex flex-col">
             <img
               src={artikel1}
               className="w-full rounded-2xl object-cover"
@@ -59,7 +59,7 @@ const Artikel = () => {
             </div>
           </div>
 
-          <div className="w-64 h-96 rounded-2xl border border-[#DCDCDC] flex flex-col">
+          <div data-aos="fade-up" data-aos-duration="1000" className="w-64 h-96 rounded-2xl border border-[#DCDCDC] flex flex-col">
             <img
               src={artikel2}
               className="w-full rounded-2xl object-cover"
@@ -83,7 +83,7 @@ const Artikel = () => {
             </div>
           </div>
 
-          <div className="w-64 h-96 rounded-2xl border border-[#DCDCDC] flex flex-col">
+          <div data-aos="fade-up" data-aos-duration="1000" className="w-64 h-96 rounded-2xl border border-[#DCDCDC] flex flex-col">
             <img
               src={artikel3}
               className="w-full rounded-2xl object-cover"
@@ -107,7 +107,7 @@ const Artikel = () => {
             </div>
           </div>
 
-          <div className="w-64 h-96 rounded-2xl border border-[#DCDCDC] flex flex-col">
+          <div data-aos="fade-up" data-aos-duration="1000" className="w-64 h-96 rounded-2xl border border-[#DCDCDC] flex flex-col">
             <img
               src={artikel4}
               className="w-full rounded-2xl object-cover"
@@ -131,7 +131,7 @@ const Artikel = () => {
               </div>
             </div>
           </div>
-          <div className="w-64 h-96 rounded-2xl border border-[#DCDCDC] flex flex-col">
+          <div data-aos="fade-up" data-aos-duration="1000" className="w-64 h-96 rounded-2xl border border-[#DCDCDC] flex flex-col">
             <img
               src={artikel1}
               className="w-full rounded-2xl object-cover"
@@ -154,7 +154,7 @@ const Artikel = () => {
             </div>
           </div>
 
-          <div className="w-64 h-96 rounded-2xl border border-[#DCDCDC] flex flex-col">
+          <div data-aos="fade-up" data-aos-duration="1000" className="w-64 h-96 rounded-2xl border border-[#DCDCDC] flex flex-col">
             <img
               src={artikel2}
               className="w-full rounded-2xl object-cover"
@@ -178,7 +178,7 @@ const Artikel = () => {
             </div>
           </div>
 
-          <div className="w-64 h-96 rounded-2xl border border-[#DCDCDC] flex flex-col">
+          <div data-aos="fade-up" data-aos-duration="1000" className="w-64 h-96 rounded-2xl border border-[#DCDCDC] flex flex-col">
             <img
               src={artikel3}
               className="w-full rounded-2xl object-cover"
@@ -202,7 +202,7 @@ const Artikel = () => {
             </div>
           </div>
 
-          <div className="w-64 h-96 rounded-2xl border border-[#DCDCDC] flex flex-col">
+          <div data-aos="fade-up" data-aos-duration="1000" className="w-64 h-96 rounded-2xl border border-[#DCDCDC] flex flex-col">
             <img
               src={artikel4}
               className="w-full rounded-2xl object-cover"

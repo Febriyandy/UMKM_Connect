@@ -23,10 +23,10 @@ const Makanan = () => {
         <div className=' w-full h-96 bg-[#14142B] relative'>
           <img src={Foto} className='opacity-35 h-96 w-full object-cover' alt="" />
           <div className='flex flex-col items-center h-full w-full absolute top-5 '>
-            <h1 className='font-body font-bold text-white text-2xl text-center mt-20'>
+            <h1 data-aos="zoom-in" data-aos-duration="1000" className='font-body font-bold text-white text-2xl text-center mt-20'>
             Selamat Datang di Pilihan Kuliner Kami!
             </h1>
-            <div className='relative w-1/2 mt-10'>
+            <div data-aos="zoom-in" data-aos-duration="1000" className='relative w-1/2 mt-10'>
               <input 
                 type="text" 
                 className='w-full h-14 rounded-lg text-lg font-body outline-none p-4 pr-12' 
@@ -34,7 +34,7 @@ const Makanan = () => {
               />
               <IoIosSearch className='absolute top-1/2 right-4 transform -translate-y-1/2 text-2xl text-gray-500'  />
             </div>
-            <h2 className='font-body text-white text-center w-3/4 mt-10'>
+            <h2 data-aos="fade-up" data-aos-duration="1000" className='font-body text-white text-center w-3/4 mt-10'>
             Nikmati ragam hidangan lezat dari para UMKM lokal kami. Dibuat dengan cinta dan keahlian, setiap hidangan membawa cita rasa yang unik dan menyenangkan. Temukan kelezatan baru dan dukung komunitas kami dengan setiap suapan!
             </h2>
           </div>
@@ -42,7 +42,7 @@ const Makanan = () => {
       </section>
       <section className='h-auto w-full py-20 flex flex-col items-center justify-center'>
         <div className='grid grid-cols-4 gap-14'>
-            <div className='w-60 h-80  rounded-xl border shadow-lg border-[#DCDCDC]'>
+            <div data-aos="fade-up" data-aos-duration="1000" className='w-60 h-80  rounded-xl border shadow-lg border-[#DCDCDC]'>
                 <img src={sate} className='w-full h-2/5 object-cover rounded-xl' alt="" />
                 <div className='px-5 pt-2 font-body'>
                     <h1 className='font-bold text-primary'>Sate Madura Pak Darmo</h1>
@@ -52,7 +52,7 @@ const Makanan = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-60 h-80  rounded-xl border shadow-lg border-[#DCDCDC]'>
+            <div data-aos="fade-up" data-aos-duration="1000" className='w-60 h-80  rounded-xl border shadow-lg border-[#DCDCDC]'>
                 <img src={gudeg} className='w-full h-2/5 object-cover rounded-xl' alt="" />
                 <div className='px-5 pt-2 font-body'>
                     <h1 className='font-bold text-primary'>Gudeg Pak Darmo</h1>
@@ -62,7 +62,7 @@ const Makanan = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-60 h-80  rounded-xl border shadow-lg border-[#DCDCDC]'>
+            <div data-aos="fade-up" data-aos-duration="1000" className='w-60 h-80  rounded-xl border shadow-lg border-[#DCDCDC]'>
                 <img src={rendang} className='w-full h-2/5 object-cover rounded-xl' alt="" />
                 <div className='px-5 pt-2 font-body'>
                     <h1 className='font-bold text-primary'>Rendang Uda</h1>
@@ -72,7 +72,7 @@ const Makanan = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-60 h-80  rounded-xl border shadow-lg border-[#DCDCDC]'>
+            <div data-aos="fade-up" data-aos-duration="1000" className='w-60 h-80  rounded-xl border shadow-lg border-[#DCDCDC]'>
                 <img src={pempek} className='w-full h-2/5 object-cover rounded-xl' alt="" />
                 <div className='px-5 pt-2 font-body'>
                     <h1 className='font-bold text-primary'>Pempek Bu Tini</h1>
@@ -82,7 +82,7 @@ const Makanan = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-60 h-80  rounded-xl border shadow-lg border-[#DCDCDC]'>
+            <div data-aos="fade-up" data-aos-duration="1000" className='w-60 h-80  rounded-xl border shadow-lg border-[#DCDCDC]'>
                 <img src={bakso} className='w-full h-2/5 object-cover rounded-xl' alt="" />
                 <div className='px-5 pt-2 font-body'>
                     <h1 className='font-bold text-primary'>Bakso Solo</h1>
@@ -92,7 +92,7 @@ const Makanan = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-60 h-80  rounded-xl border shadow-lg border-[#DCDCDC]'>
+            <div data-aos="fade-up" data-aos-duration="1000" className='w-60 h-80  rounded-xl border shadow-lg border-[#DCDCDC]'>
                 <img src={nasgor} className='w-full h-2/5 object-cover rounded-xl' alt="" />
                 <div className='px-5 pt-2 font-body'>
                     <h1 className='font-bold text-primary'>Nasi Goreng Padang</h1>
@@ -102,7 +102,7 @@ const Makanan = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-60 h-80  rounded-xl border shadow-lg border-[#DCDCDC]'>
+            <div data-aos="fade-up" data-aos-duration="1000" className='w-60 h-80  rounded-xl border shadow-lg border-[#DCDCDC]'>
                 <img src={siomay} className='w-full h-2/5 object-cover rounded-xl' alt="" />
                 <div className='px-5 pt-2 font-body'>
                     <h1 className='font-bold text-primary'>Siomay Bu Tini</h1>
@@ -112,7 +112,7 @@ const Makanan = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-60 h-80  rounded-xl border shadow-lg border-[#DCDCDC]'>
+            <div data-aos="fade-up" data-aos-duration="1000" className='w-60 h-80  rounded-xl border shadow-lg border-[#DCDCDC]'>
                 <img src={uduk} className='w-full h-2/5 object-cover rounded-xl' alt="" />
                 <div className='px-5 pt-2 font-body'>
                     <h1 className='font-bold text-primary'>Nasi Uduk Barokah</h1>

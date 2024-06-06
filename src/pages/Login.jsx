@@ -24,17 +24,17 @@ const Login = () => {
     <>
       <section className='w-full h-screen flex'>
         <div className='w-1/2 h-full'>
-          <h1 className='font-body font-bold text-3xl text-primary px-20 pt-10'>UMKMConnect</h1>
+          <h1 data-aos="zoom-in" data-aos-duration="1000" className='font-body font-bold text-3xl text-primary px-20 pt-10'>UMKMConnect</h1>
           <div className='flex flex-col justify-center items-center'>
-            <img src={Foto} className='w-3/5' alt="UMKMConnect" />
-            <h1 className='font-body font-bold text-2xl text-primary w-1/2 text-center'>
+            <img src={Foto} data-aos="zoom-in" data-aos-duration="1000" className='w-3/5' alt="UMKMConnect" />
+            <h1 data-aos="fade-down" data-aos-duration="1000" className='font-body font-bold text-2xl text-primary w-1/2 text-center'>
               Tingkatkan Usahamu bersama UMKMConnect
             </h1>
           </div>
         </div>
-        <div className='w-1/2 h-full flex justify-center items-center relative'>
-          <img src={Background} className='w-full h-full object-cover rounded-l-primary' alt="Background" />
-          <div className='w-2/3 h-auto absolute font-body bg-opacity-25 bg-white p-10 rounded-lg'>
+        <div  className='w-1/2 h-full flex justify-center items-center relative'>
+          <img src={Background}  className='w-full h-full object-cover rounded-l-primary' alt="Background" />
+          <div data-aos="zoom-in" data-aos-duration="1000" className='w-2/3 h-auto absolute font-body bg-opacity-25 bg-white p-10 rounded-lg'>
             <h1 className='font-bold text-2xl text-white'>Masuk Akun</h1>
             <h1 className='text-white'>Buat kamu yang sudah daftar, silahkan masuk akunmu.</h1>
             <div className='flex flex-col'>

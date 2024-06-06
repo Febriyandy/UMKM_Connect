@@ -16,7 +16,8 @@ export default {
       },
       borderRadius: {
         primary : '60px',
-      }
+      },
+      
     },
   },
   plugins: [],
