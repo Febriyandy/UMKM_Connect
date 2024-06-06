@@ -8,17 +8,15 @@
 2. Clone repository ini:
     git clone https://github.com/Febriyandy/UMKM_Connect.git
 3. Masuk ke direktori project
-    cd my-project
+    `cd my-project`
 4. Instal semua depedensi
-    npm install
+    `npm install`
 5. Jalankan Aplikasi
-    npm run dev
+    `npm run dev`
 
 
 ### 7. **Referensi**
-Tambahkan referensi ke dokumentasi atau sumber daya lain yang dapat membantu pemahaman lebih lanjut.
 
-```markdown
 ## Referensi
 
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
