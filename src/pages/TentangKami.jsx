@@ -7,6 +7,7 @@ import Footer from '../components/footer'
 import Background from "../assets/images/bglogin.jpg";
 
 const TentangKami = () => {
+    // Membuat Judul Halaman
     useEffect(() => {
         document.title = 'Tentang Kami';
       }, []);

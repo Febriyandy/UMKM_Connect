@@ -22,13 +22,14 @@ import bgartikel from "../assets/images/bgartikel.png";
 
 const Dashboard = () => {
 
+  // Membuat Judul Halaman
   useEffect(() => {
     document.title = 'Dashboard';
   }, []);
 
   return (
     <>
-      <Navbar />
+      <Navbar />{/* Navbar */}
       <section>
         <div className=" w-full h-auto bg-[#14142B] relative">
           <img
@@ -62,6 +63,8 @@ const Dashboard = () => {
           </div>
         </div>
       </section>
+
+      {/* Kategori Produk */}
       <section className="h-96 w-full flex flex-col items-center font-body">
         <h1 className="font-bold text-xl mt-10">Kategori Produk</h1>
         <div data-aos="fade-up" data-aos-duration="1000" className="flex mt-8 gap-20">
@@ -115,6 +118,8 @@ const Dashboard = () => {
           </div>
         </div>
       </section>
+
+      {/* Partner UMKM */}
       <section className="h-96 mt-10 w-full flex flex-col items-center font-body">
         <div data-aos="fade-up" data-aos-duration="1000" className="w-4/5 h-4/5 bg-primary rounded-2xl flex flex-col items-center">
           <h1 className="font-bold text-white text-xl mt-10 ">Partner UMKM</h1>
@@ -162,6 +167,8 @@ const Dashboard = () => {
           </div>
         </div>
       </section>
+
+      {/* Artikel Terbaru */}
       <h1 className="font-bold text-xl px-28 font-body">Artikel Terbaru</h1>
       <section className="h-auto my-10 w-full flex flex-col items-center font-body">
         <div data-aos="fade-up" data-aos-duration="1000" className="grid grid-cols-4 gap-10">
@@ -263,6 +270,8 @@ const Dashboard = () => {
 
         </div>
       </section>
+
+      {/* Ajakan untuk Bergabung */}
       <section className="h-72 w-full flex bg-primary">
         <img  src={bgartikel} className="w-full object-cover absolute" alt="" />
         <div className="relative flex items-center">
