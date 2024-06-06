@@ -20,7 +20,7 @@
 ## Referensi
 
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
-- [React Router](https://reactrouter.com/web/guides/quick-start)
+- [React Router](https://reactrouter.com/en/6.23.1/start/tutorial)
 - [Tailwind CSS](https://tailwindcss.com/docs)
 - [AOS Animation](https://michalsnik.github.io/aos/)
 - [React Icons](https://react-icons.github.io/react-icons/)
