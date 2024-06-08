@@ -40,15 +40,26 @@ const DetailMakanan = () => {
       </div>
       </div>
       </div>
-      <div className='w-1/2 h full pr-20 pl-10 flex flex-col  font-body'>
-        <div data-aos="zoom-in" data-aos-duration="1000" className='w-full h-96 rounded-xl border border-[#DCDCDC] shadow-lg'>
+      <div className='w-1/2 h-screen mb-10 pr-20 pl-10 flex flex-col  font-body'>
+        <div data-aos="fade-up" data-aos-duration="1000" className='w-full h-96 rounded-xl border border-[#DCDCDC] shadow-lg'>
           <img src={Sate} className='h-3/5 rounded-xl w-full object-cover' alt="" />
           <div>
           <h1 className=' pl-5 font-bold text-primary py-3'>Sate Madura Pak Darmo</h1>
           <h1 className='flex pl-5 py-1 items-center'><GrMoney className='text-primary text-xl mr-2'/>Rp25.000/Porsi</h1>
           <h1 className='flex pl-5 py-1 items-center'><IoLocationOutline className='text-primary text-xl mr-2'/>Jl. Sultan Agung No.111, Wirogunan, Kec. Mergangsan</h1>
           <h1 className='flex pl-5 pb-4 items-center'><IoMdTime className='text-primary text-xl mr-2'/>Senin-Sabtu Buka Pukul 11.00-23.00 WIB</h1>
+          <div data-aos="zoom-in" data-aos-duration="1000" className='w-full h-56 mt-5 rounded-xl border border-[#DCDCDC] shadow-lg'>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.224935409236!2d110.3754373152503!3d-7.798325179482585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57939c23cddf%3A0x5027a76e3568980!2sJl.%20Sultan%20Agung%20No.111%2C%20Wirogunan%2C%20Kec.%20Mergangsan%2C%20Kota%20Yogyakarta%2C%20Daerah%20Istimewa%20Yogyakarta%2055100%2C%20Indonesia!5e0!3m2!1sen!2sus!4v1657691924018!5m2!1sen!2sus"
+              width="100%"
+              height="100%"
+              allowFullScreen=""
+              loading="lazy"
+              className='rounded-xl'
+            ></iframe>
+          </div>
         </div>
+       
         </div>
       </div>
     </section>
